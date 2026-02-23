@@ -429,9 +429,11 @@ function CampaignPage({ campaign, onBack, onContribute }) {
         border: `1px solid ${campaign.brandColor}25`,
         position: "relative", overflow: "hidden",
       }}>
-        <div style={{ position: "absolute", top: -40, right: -20, fontSize: 140, opacity: 0.06, transform: "rotate(15deg)" }}>
-          {campaign.heroEmoji}
-        </div>
+        {campaign.heroImage ? (
+          <img src={campaign.heroImage} alt="" style={{ position: "absolute", top: -40, right: -20, width: 160, opacity: 0.08, transform: "rotate(15deg)", pointerEvents: "none" }} />
+        ) : (
+          <div style={{ position: "absolute", top: -40, right: -20, fontSize: 140, opacity: 0.06, transform: "rotate(15deg)" }}>{campaign.heroEmoji}</div>
+        )}
         <div style={{ position: "relative", zIndex: 1 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16, flexWrap: "wrap" }}>
             <span style={{
@@ -705,9 +707,11 @@ function CampaignCard({ campaign, onOpen }) {
         padding: "48px 32px", position: "relative", overflow: "hidden",
         background: `linear-gradient(145deg, ${campaign.brandColor}20, ${campaign.brandColor}08)`,
       }}>
-        <div style={{ position: "absolute", bottom: -20, right: -10, fontSize: 120, opacity: 0.1, transform: "rotate(15deg)" }}>
-          {campaign.heroEmoji}
-        </div>
+        {campaign.heroImage ? (
+          <img src={campaign.heroImage} alt="" style={{ position: "absolute", bottom: -20, right: -10, width: 140, opacity: 0.12, transform: "rotate(15deg)", pointerEvents: "none" }} />
+        ) : (
+          <div style={{ position: "absolute", bottom: -20, right: -10, fontSize: 120, opacity: 0.1, transform: "rotate(15deg)" }}>{campaign.heroEmoji}</div>
+        )}
         <div style={{ position: "relative", zIndex: 1 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
             <span style={{
