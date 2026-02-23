@@ -68,6 +68,7 @@ Instead of taking on big institutional debt or giving away equity to outside inv
     title: "YoloBerry Hits Campus — 17 Years Strong",
     subtitle: "Bring Davis's favorite frozen yogurt to the UC Davis Silo and renovate our downtown flagship",
     heroEmoji: "🍦",
+    heroImage: "/berry_icon_large.png",
     story: `YoloBerry Yogurt has been a Davis institution since 2008. Located at 316 C Street, right across from Central Park, we've served hundreds of thousands of bowls, hosted countless first dates (four couples have gotten married because of us!), and watched a generation of Davis kids grow up choosing their favorite toppings from our 101+ selection.
 
 Now, after 17 years downtown, YoloBerry is going to campus. We're opening a location inside the UC Davis Silo — the central dining hub where 40,000+ students, faculty, and staff eat every day. The Silo currently has burgers, crepes, and coffee, but no frozen yogurt. That's about to change. Davis students have been walking or biking downtown to get their YoloBerry fix for nearly two decades — now we'll be right where they are.
