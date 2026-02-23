@@ -4,6 +4,7 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 // DATA
 // ============================================================
 const CAMPAIGNS = [
+  /* ACAI FRESH - HIDDEN FOR NOW
   {
     id: "acai-fresh-expansion",
     brand: "Acai Fresh",
@@ -57,6 +58,7 @@ Instead of taking on big institutional debt or giving away equity to outside inv
       { date: "Feb 23, 2026", title: "Two Locations Announced!", text: "We're officially going for it — Acai Fresh is expanding to the UC Davis Silo and the new Nugget Center in Rocklin. Two locations, zero compromise on quality. Thank you for believing in fresh." },
     ],
   },
+  END ACAI FRESH */
   {
     id: "yoloberry-expansion",
     brand: "YoloBerry Yogurt",
