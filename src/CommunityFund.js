@@ -92,12 +92,12 @@ We've always been community-first. That's why we're asking our community to help
       { icon: "💚", label: "17 Years Local", detail: "Keeping ownership in Davis, where it belongs" },
     ],
     useOfFunds: [
-      { label: "UC Davis Silo Build-out", amount: 80000, pct: 40 },
-      { label: "310 C st Downtown Flagship Renovation", amount: 50000, pct: 25 },
-      { label: "New Equipment & Machines", amount: 30000, pct: 15 },
-      { label: "Catering & Events Setup", amount: 20000, pct: 10 },
-      { label: "Marketing & Grand Opening", amount: 12000, pct: 6 },
-      { label: "Grand Opening VIP Party Fund", amount: 8000, pct: 4 },
+      { label: "UC Davis Silo Build-out", pct: 40 },
+      { label: "310 C st Downtown Flagship Renovation", pct: 25 },
+      { label: "New Equipment & Machines", pct: 15 },
+      { label: "Catering & Events Setup", pct: 10 },
+      { label: "Marketing & Grand Opening", pct: 6 },
+      { label: "Grand Opening VIP Party Fund", pct: 4 },
     ],
     rewards: [
       { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
