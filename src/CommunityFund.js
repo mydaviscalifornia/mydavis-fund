@@ -76,10 +76,10 @@ Now, after 17 years downtown, YoloBerry is going to campus. We're opening a loca
 We're also building out our catering and events operation so YoloBerry can show up at campus events, community gatherings, and private parties across the Davis and our local area.
 
 We've always been community-first. That's why we're asking our community to help us write the next chapter. Every dollar stays local. Every decision stays with the people who've been here since day one.`,
-    goal: 80000,
+    goal: 100000,
     raised: 0,
     backerCount: 0,
-    daysLeft: 108,
+    daysLeft: 168,
     location: "Davis, CA",
     category: "Food & Beverage",
     founded: "2008",
@@ -92,12 +92,12 @@ We've always been community-first. That's why we're asking our community to help
       { icon: "💚", label: "17 Years Local", detail: "Keeping ownership in Davis, where it belongs" },
     ],
     useOfFunds: [
-      { label: "UC Davis Silo Build-out", pct: 40 },
-      { label: "310 C st Downtown Flagship Renovation", pct: 25 },
-      { label: "New Equipment & Machines", pct: 15 },
-      { label: "Catering & Events Setup", pct: 10 },
-      { label: "Marketing & Grand Opening", pct: 6 },
-      { label: "Grand Opening VIP Party Fund", pct: 4 },
+      { label: "UC Davis Silo Build-out", amount: 40000, pct: 40 },
+      { label: "310 C st Downtown Flagship Renovation", amount: 25000, pct: 25 },
+      { label: "New Equipment & Machines", amount: 15000, pct: 15 },
+      { label: "Catering & Events Setup", amount: 10000, pct: 10 },
+      { label: "Marketing & Grand Opening", amount: 6000, pct: 6 },
+      { label: "Grand Opening VIP Party Fund", amount: 4000, pct: 4 },
     ],
     rewards: [
       { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
