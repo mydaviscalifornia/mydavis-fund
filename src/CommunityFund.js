@@ -76,7 +76,7 @@ Now, after 17 years downtown, YoloBerry is going to campus. We're opening a loca
 We're also building out our catering and events operation so YoloBerry can show up at campus events, community gatherings, and private parties across the Davis and our local area.
 
 We've always been community-first. That's why we're asking our community to help us write the next chapter. Every dollar stays local. Every decision stays with the people who've been here since day one.`,
-    goal: 200000,
+    goal: 80000,
     raised: 0,
     backerCount: 0,
     daysLeft: 108,
@@ -92,12 +92,12 @@ We've always been community-first. That's why we're asking our community to help
       { icon: "💚", label: "17 Years Local", detail: "Keeping ownership in Davis, where it belongs" },
     ],
     useOfFunds: [
-      { label: "UC Davis Silo Build-out & Lease", amount: 80000, pct: 40 },
-      { label: "Downtown Flagship Renovation", amount: 50000, pct: 25 },
-      { label: "New Equipment & Machines (Silo)", amount: 30000, pct: 15 },
+      { label: "UC Davis Silo Build-out", amount: 80000, pct: 40 },
+      { label: "310 C st Downtown Flagship Renovation", amount: 50000, pct: 25 },
+      { label: "New Equipment & Machines", amount: 30000, pct: 15 },
       { label: "Catering & Events Setup", amount: 20000, pct: 10 },
       { label: "Marketing & Grand Opening", amount: 12000, pct: 6 },
-      { label: "Working Capital", amount: 8000, pct: 4 },
+      { label: "Grand Opening VIP Party Fund", amount: 8000, pct: 4 },
     ],
     rewards: [
       { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
