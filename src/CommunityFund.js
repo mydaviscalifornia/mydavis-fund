@@ -79,7 +79,7 @@ We've always been community-first. That's why we're asking our community to help
     goal: 200000,
     raised: 0,
     backerCount: 0,
-    daysLeft: 60,
+    daysLeft: 108,
     location: "Davis, CA",
     category: "Food & Beverage",
     founded: "2008",
