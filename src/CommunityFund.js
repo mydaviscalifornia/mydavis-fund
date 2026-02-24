@@ -100,7 +100,7 @@ We've always been community-first. That's why we're asking our community to help
       { label: "Community Thank You Celebration", amount: 4000, pct: 4 },
     ],
     rewards: [
-      { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
+      { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🎁" },
       { id: "yb-2", title: "Toppings Club", amount: 50, description: "All of the above + $10 gift card valid at any location + exclusive toppings preview access", claimed: 0, limit: 500, emoji: "🍓" },
       { id: "yb-3", title: "Berry VIP", amount: 100, description: "All of the above + limited-edition YoloBerry hoodie + $25 gift card valid at any location", claimed: 0, limit: 300, emoji: "🧥" },
       { id: "yb-4", title: "Sweet Circle", amount: 250, description: "All of the above + VIP Silo grand opening party + free yogurt weekly for 3 months at any location", claimed: 0, limit: 100, emoji: "🎉" },
