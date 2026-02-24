@@ -71,11 +71,11 @@ Instead of taking on big institutional debt or giving away equity to outside inv
     heroImage: "/berry_icon_large.png",
     story: `YoloBerry Yogurt has been a Davis institution since 2008. Located at 316 C Street, right across from Central Park, we've served hundreds of thousands of bowls, hosted countless first dates (four couples have gotten married because of us!), and watched a generation of Davis kids grow up choosing their favorite toppings from our 101+ selection.
 
-Now, after 17 years downtown, YoloBerry is going to campus. We're opening a location inside the UC Davis Silo — the central dining hub where 40,000+ students, faculty, and staff eat every day. The Silo currently has burgers, crepes, and coffee, but no frozen yogurt. That's about to change. Davis students have been walking or biking downtown to get their YoloBerry fix for nearly two decades — now we'll be right where they are.
+Now, after 17 years downtown, YoloBerry is going to campus. We're opening a location inside the UC Davis Silo — the central dining hub where 40,000+ students, faculty, and staff eat every day. The Silo currently has no frozen yogurt or acai optoins. That's about to change. Davis students have been walking or biking downtown to get their YoloBerry fix for nearly two decades — now we'll be right where they are.
 
-We're also investing in our flagship downtown location at 316 C Street with a full renovation — updated equipment, refreshed design, and better infrastructure to serve the community that's supported us since day one. Plus, we're building out a catering and events operation so YoloBerry can show up at campus events, community gatherings, and private parties across the region.
+We're also building out our catering and events operation so YoloBerry can show up at campus events, community gatherings, and private parties across the Davis and our local area.
 
-We've always been community-first. That's why we're asking our community — not banks, not chains, not private equity — to help us write the next chapter. Every dollar stays local. Every decision stays with the people who've been here since day one.`,
+We've always been community-first. That's why we're asking our community to help us write the next chapter. Every dollar stays local. Every decision stays with the people who've been here since day one.`,
     goal: 200000,
     raised: 0,
     backerCount: 0,
