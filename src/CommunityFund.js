@@ -97,7 +97,7 @@ We've always been community-first. That's why we're asking our community to help
       { label: "New Equipment & Machines", amount: 15000, pct: 15 },
       { label: "Catering & Events Setup", amount: 10000, pct: 10 },
       { label: "Marketing & Grand Opening", amount: 6000, pct: 6 },
-      { label: "Grand Opening VIP Party Fund", amount: 4000, pct: 4 },
+      { label: "Community Thank You Celebration", amount: 4000, pct: 4 },
     ],
     rewards: [
       { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
