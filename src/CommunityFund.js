@@ -145,7 +145,7 @@ Now, after 17 years downtown, YoloBerry is going to campus. We're opening a loca
 We're also investing in our flagship downtown location at 316 C Street with a full renovation — updated equipment, refreshed design, and better infrastructure to serve the community that's supported us since day one. Plus, we're building out a catering and events operation so YoloBerry can show up at campus events, community gatherings, and private parties across the region.
 
 We've always been community-first. That's why we're asking our community — not banks, not chains, not private equity — to help us write the next chapter. Every dollar stays local. Every decision stays with the people who've been here since day one.`,
-    goal: 200000,
+    goal: 100000,
     raised: 0,
     backerCount: 0,
     daysLeft: 60,
@@ -161,15 +161,15 @@ We've always been community-first. That's why we're asking our community — not
       { icon: "💚", label: "17 Years Local", detail: "Keeping ownership in Davis, where it belongs" },
     ],
     useOfFunds: [
-      { label: "UC Davis Silo Build-out & Lease", amount: 80000, pct: 40 },
-      { label: "Downtown Flagship Renovation", amount: 50000, pct: 25 },
-      { label: "New Equipment & Machines (Silo)", amount: 30000, pct: 15 },
-      { label: "Catering & Events Setup", amount: 20000, pct: 10 },
-      { label: "Marketing & Grand Opening", amount: 12000, pct: 6 },
-      { label: "Working Capital", amount: 8000, pct: 4 },
+      { label: "UC Davis Silo Build Out", amount: 40000, pct: 40 },
+      { label: "Downtown Flagship Renovation", amount: 25000, pct: 25 },
+      { label: "New Equipment & Machines", amount: 15000, pct: 15 },
+      { label: "Catering & Events Setup", amount: 10000, pct: 10 },
+      { label: "Marketing & Grand Opening", amount: 6000, pct: 6 },
+      { label: "Summer Community Celebration", amount: 4000, pct: 4 },
     ],
     rewards: [
-      { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🩷" },
+      { id: "yb-1", title: "Yogurt Fan", amount: 25, description: "Thank-you on our community board at downtown & Silo locations + YoloBerry sticker pack", claimed: 0, limit: null, emoji: "🎁" },
       { id: "yb-2", title: "Toppings Club", amount: 50, description: "All of the above + $10 gift card valid at any location + exclusive toppings preview access", claimed: 0, limit: 500, emoji: "🍓" },
       { id: "yb-3", title: "Berry VIP", amount: 100, description: "All of the above + limited-edition YoloBerry hoodie + $25 gift card valid at any location", claimed: 0, limit: 300, emoji: "🧥" },
       { id: "yb-4", title: "Sweet Circle", amount: 250, description: "All of the above + VIP Silo grand opening party + free yogurt weekly for 3 months at any location", claimed: 0, limit: 100, emoji: "🎉" },
