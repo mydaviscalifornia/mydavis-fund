@@ -1,4 +1,28 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
+const SHEETS_API_URL = "
+https://script.google.com/macros/s/AKfycbxzQYzxuf1vXu7STSM9wQ3pDl3T3Jk9Ye00ybDIIkGicNuhsh6QjSqObuEPP2kCUpOX/exec";
+
+async function fetchTotals() {
+  try {
+    const res = await fetch(SHEETS_API_URL);
+    const data = await res.json();
+    if (data.success) return data.totals;
+  } catch (e) { console.error("Failed to fetch totals:", e); }
+  return null;
+}
+
+async function postContribution(info) {
+  try {
+    const res = await fetch(SHEETS_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify(info),
+    });
+    const data = await res.json();
+    if (data.success) return data.totals;
+  } catch (e) { console.error("Failed to post:", e); }
+  return null;
+}
 
 // ============================================================
 // THEMES
@@ -380,9 +404,18 @@ function CheckoutModal({ campaign, reward, customAmount, onClose, onSuccess, t }
     : `${campaign.brand} — Community Contribution ($${amount})`;
 
   const handleSuccess = useCallback((details) => {
+    const payer = details?.payer || {};
+    postContribution({
+      campaign_id: campaign.id,
+      amount: amount,
+      reward_tier: reward ? reward.title : "Custom",
+      payer_email: payer.email_address || "",
+      payer_name: [payer.name?.given_name, payer.name?.surname].filter(Boolean).join(" ") || "",
+      paypal_order_id: details?.id || "",
+    });
     setStep("success");
     onSuccess(amount, reward);
-  }, [amount, reward, onSuccess]);
+  }, [amount, reward, campaign, onSuccess]);
 
   if (step === "success") {
     return (
@@ -858,7 +891,50 @@ export default function CommunityFund() {
     return window.matchMedia?.("(prefers-color-scheme: dark)")?.matches !== false;
   });
 
-  const t = isDark ? THEMES.dark : THEMES.light;
+  const t = isDark ? THEMES.dark : THEMES.light; useEffect(() => {
+    fetchTotals().then(totals => {
+      if (!totals) return;
+      setCampaigns(prev => prev.map(c => {
+        const data = totals[c.id];
+        if (data) return { ...c, raised: data.raised, backerCount: data.backerCount };
+        return c;
+      }));
+    });
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      fetchTotals().then(totals => {
+        if (!totals) return;
+        setCampaigns(prev => prev.map(c => {
+          const data = totals[c.id];
+          if (data) return { ...c, raised: data.raised, backerCount: data.backerCount };
+          return c;
+        }));
+      });
+    }, 30000);
+    return () => clearInterval(interval);
+  }, []);
+```
+
+**Edit 4 — Fix FAQ refund language.** Find:
+```
+"Contributions are non-refundable donations that support community business growth. If a campaign does not reach its goal, all contributions will be refunded in full via PayPal."
+```
+
+Replace with:
+```
+"All contributions are final and non-refundable. By contributing, you are making a donation to support a local Davis business's expansion and growth. You will receive the rewards associated with your contribution tier as described."
+```
+
+**Edit 5 — Fix disclaimer refund language.** Find at the bottom:
+```
+All contributions are non-refundable unless a campaign fails to meet its minimum goal.
+```
+
+Replace with:
+```
+All contributions are final and non-refundable.
 
   useEffect(() => {
     const h = () => setScrollY(window.scrollY);
