@@ -177,7 +177,7 @@ We've always been community-first. That's why we're asking our community — not
     category: "Food & Beverage",
     founded: "2008",
     currentLocation: "316 C Street, Downtown Davis",
-    owner: "Lee & Laura Pflugrath",
+    owner: "Lee Pflugrath & Laura Winton",
     highlights: [
       { icon: "🎓", label: "UC Davis Silo", detail: "Frozen yogurt for 40,000+ Aggies on campus" },
       { icon: "🔨", label: "Downtown Renovation", detail: "Refreshing our flagship 316 C St location" },
