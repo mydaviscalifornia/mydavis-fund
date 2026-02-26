@@ -1,6 +1,7 @@
+
 import React, { useState, useEffect, useCallback, useRef } from "react";
-const SHEETS_API_URL = "
-https://script.google.com/macros/s/AKfycbxzQYzxuf1vXu7STSM9wQ3pDl3T3Jk9Ye00ybDIIkGicNuhsh6QjSqObuEPP2kCUpOX/exec";
+
+const SHEETS_API_URL = "https://script.google.com/macros/s/AKfycbxzQYzxuf1vXu7STSM9wQ3pDl3T3Jk9Ye00ybDIIkGicNuhsh6QjSqObuEPP2kCUpOX/exec";
 
 async function fetchTotals() {
   try {
