@@ -1145,7 +1145,7 @@ All contributions are final and non-refundable.
           background: t.disclaimerBg, border: `1px solid ${t.disclaimerBorder}`,
         }}>
           <p style={{ fontFamily: "'Outfit', sans-serif", fontSize: 11, color: t.disclaimerText, lineHeight: 1.6, margin: 0 }}>
-            <strong>Disclaimer:</strong> Contributions through MyDavisCalifornia Community Fund are reward-based donations, not equity investments. Contributors do not receive ownership shares, dividends, or any financial return. All contributions are processed via PayPal and support the listed business's expansion plans. Rewards are fulfilled by the business owners. MyDavisCalifornia facilitates the platform but does not guarantee business outcomes. This is not a securities offering and is not registered with the SEC or any state securities regulator. Not affiliated with the City of Davis. All contributions are final and non-refundable.
+            <strong>Disclaimer:</strong>The MyDavisCalifornia Community Fund are reward-based donations, not equity investments. Contributors do not receive ownership shares, dividends, or any financial return. All contributions are processed via PayPal and support the listed business's expansion plans. Rewards are fulfilled by the business owners. MyDavisCalifornia facilitates the platform but does not guarantee business outcomes. This is not a securities offering and is not registered with the SEC or any state securities regulator. Not affiliated with the City of Davis. All contributions are final and non-refundable.
           </p>
         </div>
       </div>
